@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-06-07T05:02:54.446Z",
+  "cargas": [
+    {
+      "id": "8e313fd4-a452-48c5-baee-ccf134be8a90",
+      "fecha": "2026-06-07",
+      "movil_id": "eef1d3ad-0824-439a-98d7-e6067225ae8d",
+      "numero_comprobante": "12345",
+      "monto": 15000,
+      "tipo_combustible": "gasoil",
+      "nombre_apellido": "tell gaston",
+      "observaciones": null,
+      "created_by": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "updated_by": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "created_at": "2026-06-07T04:56:48.135573+00:00",
+      "updated_at": "2026-06-07T04:56:48.135573+00:00"
+    },
+    {
+      "id": "280e658b-74d6-42ba-9320-750fb8a7e3e6",
+      "fecha": "2026-06-07",
+      "movil_id": "eef1d3ad-0824-439a-98d7-e6067225ae8d",
+      "numero_comprobante": "12346",
+      "monto": 15000,
+      "tipo_combustible": "gasoil",
+      "nombre_apellido": "tell gaston",
+      "observaciones": null,
+      "created_by": "ac1bfc04-4241-420c-81e3-6837e0461ed7",
+      "updated_by": "ac1bfc04-4241-420c-81e3-6837e0461ed7",
+      "created_at": "2026-06-07T04:58:47.821126+00:00",
+      "updated_at": "2026-06-07T04:58:47.821126+00:00"
+    }
+  ],
+  "moviles": [
+    {
+      "id": "eef1d3ad-0824-439a-98d7-e6067225ae8d",
+      "codigo_interno": "movil 6",
+      "nombre": "sisterna",
+      "patente": null,
+      "descripcion": "renault sisterna",
+      "observaciones": null,
+      "activo": true,
+      "created_at": "2026-06-07T04:56:11.343595+00:00",
+      "updated_at": "2026-06-07T04:56:11.343595+00:00"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "username": "admin",
+      "nombre_completo": "Administrador",
+      "email": "admin@sistema.local",
+      "activo": true,
+      "must_change_password": false,
+      "created_at": "2026-06-07T04:48:40.338731+00:00",
+      "updated_at": "2026-06-07T04:52:10.335761+00:00"
+    },
+    {
+      "id": "ac1bfc04-4241-420c-81e3-6837e0461ed7",
+      "username": "b25",
+      "nombre_completo": "Tell Gaston",
+      "email": "b25@sistema.local",
+      "activo": true,
+      "must_change_password": false,
+      "created_at": "2026-06-07T04:54:56.667873+00:00",
+      "updated_at": "2026-06-07T04:57:56.293257+00:00"
+    }
+  ],
+  "audit_log": [
+    {
+      "id": "977e33e1-dfa4-481d-a469-a91add99be10",
+      "user_id": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "username": "admin",
+      "accion": "crear",
+      "entidad": "usuario",
+      "entidad_id": null,
+      "detalle": {
+        "role": "operador",
+        "username": "b25"
+      },
+      "created_at": "2026-06-07T04:54:57.422234+00:00"
+    },
+    {
+      "id": "2bcc702a-a4a1-47fb-bf6b-5fc7aad79ed1",
+      "user_id": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "username": "admin",
+      "accion": "crear",
+      "entidad": "movil",
+      "entidad_id": null,
+      "detalle": {
+        "activo": true,
+        "nombre": "sisterna",
+        "patente": null,
+        "descripcion": "renault sisterna",
+        "observaciones": null,
+        "codigo_interno": "movil 6"
+      },
+      "created_at": "2026-06-07T04:56:11.784248+00:00"
+    },
+    {
+      "id": "514d591c-c3f4-4b42-b16d-2c0c7521b541",
+      "user_id": "a9f8de75-9ffe-4b91-89b6-652f5421e84e",
+      "username": "admin",
+      "accion": "crear",
+      "entidad": "carga",
+      "entidad_id": "8e313fd4-a452-48c5-baee-ccf134be8a90",
+      "detalle": {},
+      "created_at": "2026-06-07T04:56:48.563281+00:00"
+    },
+    {
+      "id": "4271ae9e-ae4b-4671-a7ec-e9e9c5cde4a6",
+      "user_id": "ac1bfc04-4241-420c-81e3-6837e0461ed7",
+      "username": "b25",
+      "accion": "crear",
+      "entidad": "carga",
+      "entidad_id": "280e658b-74d6-42ba-9320-750fb8a7e3e6",
+      "detalle": {},
+      "created_at": "2026-06-07T04:58:48.251485+00:00"
+    }
+  ]
+}
